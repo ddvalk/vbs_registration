@@ -1,0 +1,65 @@
+<?php
+
+/*
+** EkklesiaSoft | VBS Registration
+** http://www.ekklesiasoft.com
+** config.php written by Jake Shepherd (jake@ekklesiasoft.com)
+** Copyright (c) 2010 EkklesiaSoft, All Rights Reserved
+** Configure This Page To Customize For Your Site
+*/
+
+
+//EVENT SETTINGS
+$adminemail ="jones@mydomain.net";
+$eventdirector ="Bob Jones";
+$directortitle ="VBS Director";
+$eventname ="VBS 2018";
+$orginization ="My Church";
+$year ="2018";
+$website ="http://mychurchwebsite.org";
+$eventdate ="July 9-13";
+$eventstarttime ="9:00 AM";
+$eventlocation ="MyCity";
+
+
+//SQL SERVER SETTINGS
+$db_name ="vbs2018";
+$hostname ="localhost";
+$dbusername ="vbsadmin";
+$dbpassword ="vbspasswd";
+//dont change table_name unless you altered in the setup database
+$table_name ="vbsreg";
+
+
+//ROSCRIPTS LOGIN SETTINGS
+$tableprefix ="";
+	//url to admin login page - needed for login
+$app_url ="http://mysite.vbs/sitepath/admin/";
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// DO NOT MAKE CHANGES BEYOND THIS POINT!!!!
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+//connect to server and select database
+$connection = mysqli_connect($hostname,$dbusername,$dbpassword,$db_name);
+
+if ($connection->connect_errno) {
+    echo "Errno: " . $connection->connect_errno . "\n";
+}
+
+
+//Admin Menu Sidebar
+	//can be changed to add pages by must be in relation to the admin directory
+$admin_menu ="<li><a href=\"index.php\">Home</a></li>
+			  <li><a href=\"masterlist.php\">Master List</a></li>
+			  <li><a href=\"http://www.ekklesiasoft.com\">EkklesiaSoft</a></li>
+  			  <li><a href=\"logout.php\">Logout</a></li>";
+
+
+$ekklesia_version ="0.6 beta";
+
+?>

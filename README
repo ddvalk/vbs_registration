@@ -24,7 +24,7 @@ REQUIREMENTS:
 
 INSTALLATION INSTRUCTIONS:
 1. Unzip File
-2. Change the settings in the connections.php file. 
+2. Rename and change the settings in the connections.php file. 
 	(Instructions included in file)
 3. Replace the logo.gif with your organization's logo.
 	(Keep the name and .gif extension the same)
