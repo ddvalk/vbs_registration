@@ -1,0 +1,39 @@
+*********************************************************************
+**  		   EkklesiaSoft | VBS Registration		   			   **
+**  		    http://www.ekklesiasoft.com			               **
+**   Install.txt written by Jake Shepherd (jake@ekklesiasoft.com)  **
+**       Copyright (c) 2010 EkklesiaSoft, All Rights Reserved	   **
+**	  Version 0.6 Beta	Covered By The MIT License	               **
+*********************************************************************
+
+	Changelog Of VBS Registration Software (By EkklesiaSoft)
+
+
+VERSION 0.6 BETA
+	
+
+VERSION 0.5 BETA
+	Fixed bugs in /admin/info.php, connections.php, /admin/index.php
+    Recoding of registration pages to fix bug with registering multiple children
+
+VERSION 0.4 BETA
+	Organized code in admin/index.php
+	Added security to admin directory
+	Added ability to add and delete users
+	Updated database tables and install file
+	Updated ekklesiareg.sql
+	Added download to Excel feature
+	Added /admin/info.php giving configuration info
+	Updated connections.php
+
+VERSION 0.3.2 BETA
+	Added Changelog
+	Fixed mistypes in completed.php, register.php
+	Updated title and headers in admin.php
+
+VERSION 0.3 BETA
+	Added MIT License
+	Added Install.txt
+	Added sql install file
+	Changed connections.php to allow for site specific changes
+	Condensed and updated outdated code

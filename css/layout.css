@@ -1,0 +1,58 @@
+/* THREE COLUMN LAYOUT */
+/* you have to be careful with Nifty Corners - don't add height to the outer containers or the corners will not display correctly in Safari. */
+
+/*pad the */
+* {margin:0; padding:0;}
+body {
+	text-align:center;  /* IE6 needs this to center the layout in the browser window */
+	}
+#main_wrapper {
+	width:840px; /* widths of columns will scale proportionately as this width is changed */
+	margin-left:auto;  /* centers max'd layout in browser */
+	margin-right:auto; /* centers max'd layout in browser */
+	text-align:left; /* prevents page inheriting IE6 centering hack on body */
+	padding:10px 0;
+	margin-top:10px;
+	}	
+#header {
+	margin: 0 10px;
+	
+	}
+
+#content {
+	margin:10px 10px 10px 10px;
+	}
+
+#footer {
+	margin:0 10px;
+	clear:both;
+	}
+#header_inner, #content_inner, #promo_inner {
+	overflow:hidden; /* prevents oversize elements from breaking the layout */
+	}
+#header_inner {
+	padding:1em 2em;
+	}
+#nav_inner {
+	padding:1em .5em;
+	}
+#content_inner {
+	width:100%;
+	padding:1em 1em 1em 1em;
+	}
+#promo_inner {
+	padding:1em .5em;
+	}
+#footer_inner {
+	padding:.5em 1em;
+	text-align:center;
+	}
+#header_inner img {
+	position:inherit;
+	text-align:right;
+	}
+#header_inner table {	
+	width:100%;
+	padding:0em;
+	margin:0px;
+	}

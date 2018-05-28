@@ -1,0 +1,35 @@
+*********************************************************************
+**  		   EkklesiaSoft | VBS Registration		   **
+**  		    http://www.ekklesiasoft.com			   **
+**   Install.txt written by Jake Shepherd (jake@ekklesiasoft.com)  **
+**       Copyright (c) 2010 EkklesiaSoft, All Rights Reserved	   **
+**	  Version 0.6 Beta	Covered By The MIT License	   **
+*********************************************************************
+
+	Installation Of VBS Registration Software (By EkklesiaSoft)
+
+DISCLAIMER:
+While I am providing this software free of charge, I am in no way 
+liable for the behavior of this application. Use at your own risk. 
+
+
+REQUIREMENTS:
+1. PHP enabled web-server
+2. Unused SQL Database
+3. FTP Access
+4. Copy of your Organization's Logo
+5. Access to phpMyAdmin to insert sql table
+6. Understanding of PHP and HTML if you would like to edit. 
+
+
+INSTALLATION INSTRUCTIONS:
+1. Unzip File
+2. Change the settings in the connections.php file. 
+	(Instructions included in file)
+3. Replace the logo.gif with your organization's logo.
+	(Keep the name and .gif extension the same)
+4. Copy entire directory to your web-server using FTP or other means.
+5. Import ekklesiareg.sql into phpMyAdmin
+	This creates a default username of admin and password of 123456.
+6. Navigate to website and check if it works
+	Login to the admin area and change password and email address.
